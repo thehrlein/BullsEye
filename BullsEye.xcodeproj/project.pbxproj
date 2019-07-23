@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8621830922E7A73300959B0D /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 8621830822E7A73300959B0D /* BullsEye.html */; };
+		8621830C22E7AA0900959B0D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8621830B22E7AA0900959B0D /* WebKit.framework */; };
 		8622545F22DF87B900FFB121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622545E22DF87B900FFB121 /* AppDelegate.swift */; };
 		8622546122DF87B900FFB121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8622546022DF87B900FFB121 /* ViewController.swift */; };
 		8622546422DF87B900FFB121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8622546222DF87B900FFB121 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8621830822E7A73300959B0D /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		8621830B22E7AA0900959B0D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		8622545B22DF87B900FFB121 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8622545E22DF87B900FFB121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8622546022DF87B900FFB121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,17 +39,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8621830C22E7AA0900959B0D /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8621830A22E7AA0800959B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8621830B22E7AA0900959B0D /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8622545222DF87B800FFB121 = {
 			isa = PBXGroup;
 			children = (
 				8622545D22DF87B900FFB121 /* BullsEye */,
 				8622545C22DF87B900FFB121 /* Products */,
+				8621830A22E7AA0800959B0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +83,7 @@
 				8622547422DFB8B000FFB121 /* tobi.jpeg */,
 				8622546722DF87B900FFB121 /* LaunchScreen.storyboard */,
 				8622546A22DF87B900FFB121 /* Info.plist */,
+				8621830822E7A73300959B0D /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -135,6 +150,7 @@
 				8622546622DF87B900FFB121 /* Assets.xcassets in Resources */,
 				8622546422DF87B900FFB121 /* Main.storyboard in Resources */,
 				8622547522DFB8B000FFB121 /* tobi.jpeg in Resources */,
+				8621830922E7A73300959B0D /* BullsEye.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
